@@ -56,7 +56,9 @@ bool GG_SceneGamePlay::init()
 	this->gg_p_isNobitaWalled = false;
 	
 	//init map
-	this->gg_p_map = CCTMXTiledMap::create("map_1.tmx");
+       
+        this->gg_p_map = CCTMXTiledMap::create(CCString::createWithFormat("map/map_%d.tmx",user->getIntegerForKey("playing_stage"))->getCString());
+    CCLog("---%s",CCString::createWithFormat("map/map_%d.tmx",user->getIntegerForKey("playing_stage"))->getCString());
 	
 	
 	///cache map properties
