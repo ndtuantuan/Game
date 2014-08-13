@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="500" height="6" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tileset" tilewidth="64" tileheight="64">
+  <image source="tileset.png" width="448" height="704"/>
+ </tileset>
+ <tileset firstgid="78" name="bump" tilewidth="64" tileheight="64">
+  <image source="bump.png" width="128" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="isBridge" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="collision" width="500" height="6">
+  <data encoding="base64" compression="zlib">
+   eJzt110OxCAIRtGucLr/3UzmbdK0ivAJ1dyT9NGfIFg8DgAAAAAAALzVR/idxs86H/oUcYycOfyIMVag/EeQz37Edr5e76LkPb/MPVZYKZ89e921ft+cizNi/DSn+n/peWtl5lhGDqvfONZ5VfHbrdZ/rO991X0we40d+9rI/ixjI/FQnWNr7dG6V6vMkf84tuLrjX9F7VnGj66HNm8Pcjd+RNX7ZtW7vtL1fFr3DDSi/VB1Pu9QU5E+MaNnVsjq73uq7uEv7KyDkg==
+  </data>
+ </layer>
+ <layer name="ground_1_1" width="500" height="6">
+  <data encoding="base64" compression="zlib">
+   eJztWdtuE0EMdSGVuEQqSDQpt8IDvMATpWkb2kLe+P8/YqzMUVzH4/Hspiit5khH2+zOZcd3b4k6Ojo6Ojo6OjoeKy4Sf2bi70VwLo89z9c3DXsei/ka53n/q4b1OrYBnV4GxkobWJGtl9L6HcMh5Q7I313GHfsAttNF5knDvFUm5bnReNRhw4oXGreJvxKX+cq8SXwV4N/E6zznfeKnID8kvsvz9ZrXef8/o0//+MB6PKO7+jygtSxLuvkdWBc2cJPnWXqRfJvHR9b+n3gINaD0Scid+SRT/rZkrPN9x/0Act61TVk6+0ab3ojxJfHrgLXP1B4nFO+1jqmcK9hOERsieUHGIMxBnoA9t/QbQ4DeZJV/y2tEp6wT1DAa6GE9/8PcXZ6vpgeOyy8Tnyu+aNjj2cA5pfHes33EPPEwcWZc52os/BZ5mRn9FsJgfS4zEf9ZfzVZ4p3ku8p7rTqU48f45RXVcxLG6B5W+uQRre35vmpA5OBSPy2f6zn6fDKHs+4+O2QZT8mOkax7GRsXav+HgJmi9pddwuttYL/Shn/QWs6wKem7UazU76O85mt1H3txzuPa/Dtt4rNVq5fI89kuZHzgvyO9FvdYuraMxJgoEDOmdLdulfUqZKt7lhqs74qQKXKfvEbihJwv9cU6RG1iyUrX5VbPY30T1+c9MNas6QEy3sd8rnPQnDY+f2g830U80PHFot7jo8NTNZZtBLawpO3cXKNVe3myhyxr7zg0n0/Jt9sa4DM6vnl+2eKTrKsJbdsRGIXMwfqst859XUtrHdbkXfMTLzaWoL/lj+kfpD/w3xOy/UQ+m4jnsD9ctb9gnPT9obC+hURiL6DzO8Or80q524PWd2tvMyael+YOyQkt68OGoQfUIKwLr/6QtmDpJoJZZd3Ws0TlpuOJZZetsd57r33I56eC2u+tOKDjgY4BVkzAPcDLe6Uc3TIW54vawhibwV4yn2tZgUPzuX6HyP9aPH/ZdZ8tzyxtpqQbWRM/Fff1eXXMLd3X8vTWsVDzEy82en1DKYdZ8U1S+4+Uo2f7Jd/w/JfI9vXIe1rvGvG71pzl1XlDEM3n/wBVX2ah
+  </data>
+ </layer>
+ <layer name="ground_2" width="500" height="6">
+  <data encoding="base64" compression="zlib">
+   eJztmWFuwyAMhX2aLv2xrVfIv9z/REulor29PcC0TZRu75MsUkgwwsax0whjjDHGGGOMMcYY8wqcV5mpLRJ0zePnyIPz4281ZnKgPXAvM/uo7FhrR+c2dVr7PYf32BwX5Zvcx9eO648xsofTKpdVllsbt/Yifgfcx/dkUHqWypj5phXj0R64l5l9VHastaNz70Hx87l34wFA+5U9LGcvQp+v3jzm+Wzx/qmdX8ylOS/H/PwRnT1UXdbyMeWb3MfXHNe39GHeN1WfZp6v2YvjzUz999S5rIOfzbwb31f5WOVzldOduke56nnbSdeR4DpYyUyC/Rjjj7KHuM5RMu9h9mt1xoqfL7ENfDZnGsN1qWfQnhjz8OwxrbGI37HTtU+bVmxVPsyxc/R7ifLtWo6GuTTn5ZifZ7jGhEno7KHqsq1zdp5ffQfO0LJfgevPzNpa9sJ4c4qfturp4u+oKv6pZ0djfi+GPIuWnkn0/RW4DlaykHDNXdjLVgqMGbjOUfhc1M4lzt2rWx+B37+8Bv5GEdSnYiHbdCuyNuD/S/5LDoD2K3FxxIeV36k8E/WN2jwbr78AKulNhQ==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="500" height="6">
+  <object name="chaien" x="64" y="192" width="64" height="64"/>
+  <object name="nobita" x="192" y="192" width="64" height="64"/>
+  <object name="fire_1" type="1" x="1984" y="128" width="64" height="64"/>
+  <object name="fire_2" type="1" x="2240" y="128" width="64" height="64"/>
+  <object name="turtle_1" type="3" x="3840" y="256" width="64" height="64"/>
+  <object name="turtle_2" type="3" x="5056" y="192" width="64" height="64"/>
+  <object name="animal_1" type="2" x="6784" y="192" width="64" height="64">
+   <properties>
+    <property name="move" value="600"/>
+   </properties>
+  </object>
+  <object name="fire_3" type="1" x="2496" y="128" width="64" height="64"/>
+  <object name="fire_4" type="1" x="2752" y="128" width="64" height="64"/>
+  <object name="animal_2" type="2" x="7680" y="256" width="64" height="64">
+   <properties>
+    <property name="move" value="400"/>
+   </properties>
+  </object>
+  <object name="animal_3" type="2" x="8576" y="128" width="64" height="64"/>
+  <object name="animal_5" type="2" x="9408" y="64" width="64" height="64">
+   <properties>
+    <property name="move" value="500"/>
+   </properties>
+  </object>
+  <object name="animal_4" type="2" x="9152" y="64" width="64" height="64"/>
+  <object name="turtle_7" type="3" x="9984" y="64" width="64" height="64"/>
+  <object name="turtle_8" type="3" x="10240" y="64" width="64" height="64"/>
+  <object name="turtle_9" type="3" x="10624" y="64" width="64" height="64"/>
+  <object name="turtle_10" type="3" x="10880" y="64" width="64" height="64"/>
+  <object name="turtle_11" type="3" x="11520" y="192" width="64" height="64"/>
+  <object name="turtle_12" type="3" x="11840" y="192" width="64" height="64"/>
+  <object name="animal_6" type="2" x="9728" y="64" width="64" height="64">
+   <properties>
+    <property name="move" value="500"/>
+   </properties>
+  </object>
+  <object name="turtle_0" type="3" x="3520" y="256" width="64" height="64"/>
+  <object name="turtle_13" type="3" x="13248" y="192" width="64" height="64"/>
+  <object name="animal_11" type="2" x="15168" y="192" width="64" height="64"/>
+  <object name="animal_10" type="2" x="14848" y="192" width="64" height="64">
+   <properties>
+    <property name="move" value="300"/>
+   </properties>
+  </object>
+  <object name="fire_10" type="1" x="17216" y="64" width="64" height="64"/>
+  <object name="fire_11" type="1" x="17472" y="64" width="64" height="64"/>
+  <object name="turtle_20" type="3" x="19584" y="192" width="64" height="64"/>
+  <object name="animal_30" type="2" x="23424" y="64" width="64" height="64"/>
+  <object name="animal_31" type="2" x="24704" y="256" width="64" height="64">
+   <properties>
+    <property name="move" value="300"/>
+   </properties>
+  </object>
+  <object name="animal_32" type="2" x="25024" y="256" width="64" height="64"/>
+  <object name="turtle_40" type="3" x="27968" y="256" width="64" height="64"/>
+  <object name="turtle_41" type="3" x="28224" y="256" width="64" height="64"/>
+  <object name="fire_30" type="1" x="28928" y="192" width="64" height="64"/>
+  <object name="fire_31" type="1" x="29184" y="192" width="64" height="64"/>
+  <object name="animal_60" type="2" x="31680" y="128" width="64" height="64">
+   <properties>
+    <property name="move" value="360"/>
+   </properties>
+  </object>
+  <object name="fire_100" type="1" x="15232" y="192" width="64" height="64"/>
+  <object name="pie_4" type="-1" x="16512" y="0" width="64" height="64"/>
+  <object name="pie_6" type="-1" x="18240" y="64" width="64" height="64"/>
+  <object name="pie_7" type="-1" x="18432" y="128" width="64" height="64"/>
+  <object name="pie_8" type="-1" x="20544" y="0" width="64" height="64"/>
+  <object name="pie_9" type="-1" x="385" y="193" width="63" height="60"/>
+  <object name="pie_10" type="-1" x="513" y="196" width="63" height="60"/>
+  <object name="pie_11" type="-1" x="771" y="129" width="60" height="59"/>
+  <object name="pie_12" type="-1" x="899" y="130" width="61" height="59"/>
+  <object name="pie_13" type="-1" x="1027" y="130" width="61" height="61"/>
+  <object name="pie_14" type="-1" x="1217" y="195" width="62" height="58"/>
+ </objectgroup>
+ <objectgroup name="chaien_jump_pos" width="500" height="6" visible="0">
+  <object x="1792" y="128" width="64" height="64"/>
+  <object x="3136" y="192" width="64" height="64"/>
+  <object x="3392" y="256" width="64" height="64"/>
+  <object x="4352" y="256" width="64" height="64"/>
+  <object x="4672" y="192" width="64" height="64"/>
+  <object x="5248" y="256" width="64" height="64"/>
+  <object x="5696" y="192" width="64" height="64"/>
+  <object x="6080" y="192" width="64" height="64"/>
+  <object x="7168" y="256" width="64" height="64"/>
+  <object x="7744" y="192" width="64" height="64"/>
+  <object x="8064" y="128" width="64" height="64"/>
+  <object x="8640" y="64" width="64" height="64"/>
+  <object x="11200" y="192" width="64" height="64"/>
+  <object x="12096" y="256" width="64" height="64"/>
+  <object x="12352" y="256" width="64" height="64"/>
+  <object x="12672" y="256" width="64" height="64"/>
+  <object x="12928" y="192" width="64" height="64"/>
+  <object x="13760" y="128" width="64" height="64"/>
+  <object x="14464" y="192" width="64" height="64"/>
+  <object x="15488" y="128" width="64" height="64"/>
+  <object x="15808" y="64" width="64" height="64"/>
+  <object x="16448" y="128" width="64" height="64"/>
+  <object x="16896" y="64" width="64" height="64"/>
+  <object x="17920" y="192" width="64" height="64"/>
+  <object x="18112" y="256" width="64" height="64"/>
+  <object x="18816" y="192" width="64" height="64"/>
+  <object x="19072" y="256" width="64" height="64"/>
+  <object x="19392" y="192" width="64" height="64"/>
+  <object x="19968" y="128" width="64" height="64"/>
+  <object x="20352" y="192" width="64" height="64"/>
+  <object x="21120" y="256" width="64" height="64"/>
+  <object x="21504" y="192" width="64" height="64"/>
+  <object x="21952" y="192" width="64" height="64"/>
+  <object x="22336" y="192" width="64" height="64"/>
+  <object x="22720" y="128" width="64" height="64"/>
+  <object x="22912" y="64" width="64" height="64"/>
+  <object x="23616" y="128" width="64" height="64"/>
+  <object x="24064" y="192" width="64" height="64"/>
+  <object x="24320" y="256" width="64" height="64"/>
+  <object x="25216" y="256" width="64" height="64"/>
+  <object x="25984" y="192" width="64" height="64"/>
+  <object x="26176" y="192" width="64" height="64"/>
+  <object x="26624" y="192" width="64" height="64"/>
+  <object x="27008" y="128" width="64" height="64"/>
+  <object x="27520" y="192" width="64" height="64"/>
+  <object x="28032" y="256" width="64" height="64"/>
+  <object x="28736" y="192" width="64" height="64"/>
+  <object x="29504" y="128" width="64" height="64"/>
+  <object x="29760" y="192" width="64" height="64"/>
+  <object x="30080" y="256" width="64" height="64"/>
+  <object x="30528" y="192" width="64" height="64"/>
+  <object x="30848" y="128" width="64" height="64"/>
+  <object x="31232" y="128" width="64" height="64"/>
+ </objectgroup>
+</map>
