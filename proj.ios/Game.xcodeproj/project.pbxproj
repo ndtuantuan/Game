@@ -134,6 +134,7 @@
 		15A3DAEE1682F8A6002FB0C5 /* SimpleAudioEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA8C1682F8A6002FB0C5 /* SimpleAudioEngine.mm */; };
 		15A3DAEF1682F8A6002FB0C5 /* SimpleAudioEngine_objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA8E1682F8A6002FB0C5 /* SimpleAudioEngine_objc.m */; };
 		174E99D8199B4EE400244FF8 /* map in Resources */ = {isa = PBXBuildFile; fileRef = 174E99D7199B4EE400244FF8 /* map */; };
+		174E99DC199B766800244FF8 /* background in Resources */ = {isa = PBXBuildFile; fileRef = 174E99DB199B766800244FF8 /* background */; };
 		175775FC1999D9F700309F47 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 175775DB1999D9F700309F47 /* background.png */; };
 		175775FD1999D9F700309F47 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 175775DC1999D9F700309F47 /* black.png */; };
 		175775FE1999D9F700309F47 /* btn_menu_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 175775DD1999D9F700309F47 /* btn_menu_small.png */; };
@@ -564,6 +565,7 @@
 		15A3DA8D1682F8A6002FB0C5 /* SimpleAudioEngine_objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine_objc.h; sourceTree = "<group>"; };
 		15A3DA8E1682F8A6002FB0C5 /* SimpleAudioEngine_objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleAudioEngine_objc.m; sourceTree = "<group>"; };
 		174E99D7199B4EE400244FF8 /* map */ = {isa = PBXFileReference; lastKnownFileType = folder; path = map; sourceTree = "<group>"; };
+		174E99DB199B766800244FF8 /* background */ = {isa = PBXFileReference; lastKnownFileType = folder; path = background; sourceTree = "<group>"; };
 		175775DB1999D9F700309F47 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		175775DC1999D9F700309F47 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
 		175775DD1999D9F700309F47 /* btn_menu_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_menu_small.png; sourceTree = "<group>"; };
@@ -1976,6 +1978,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				174E99DB199B766800244FF8 /* background */,
 				174E99D7199B4EE400244FF8 /* map */,
 				17B6CC2A199A142A00AA7595 /* nobita.png */,
 				17B6CC28199A0DB100AA7595 /* loading.png */,
@@ -2092,6 +2095,7 @@
 				1757761B1999D9F700309F47 /* turtle.png in Resources */,
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				1757760B1999D9F700309F47 /* dinosaur_3.wav in Resources */,
+				174E99DC199B766800244FF8 /* background in Resources */,
 				175776191999D9F700309F47 /* traffic.png in Resources */,
 				175775FE1999D9F700309F47 /* btn_menu_small.png in Resources */,
 				174E99D8199B4EE400244FF8 /* map in Resources */,

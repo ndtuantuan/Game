@@ -31,7 +31,7 @@ bool GG_SceneGamePlay::init()
 	CCLOG("--------- STAGE %i ---------",user->getIntegerForKey("playing_stage") );
 	///////////////
 	
-	this->gg_p_background = CCSpriteBatchNode::createWithTexture( CCTextureCache::sharedTextureCache()->addImage("background.png") , 2);
+	this->gg_p_background = CCSpriteBatchNode::createWithTexture( CCTextureCache::sharedTextureCache()->addImage(CCString::createWithFormat("background/bg_%d.png",user->getIntegerForKey("playing_stage"))->getCString()) , 2);
 	CCSprite *bg_1 = CCSprite::createWithTexture(this->gg_p_background->getTexture());
 	CCSprite *bg_2 = CCSprite::createWithTexture(this->gg_p_background->getTexture());
 		

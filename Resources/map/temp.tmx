@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="6" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="bump" tilewidth="64" tileheight="64">
+  <image source="bump.png" width="128" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="isBridge" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="tileset" tilewidth="64" tileheight="64">
+  <image source="tileset.png" width="448" height="704"/>
+ </tileset>
+ <layer name="collision" width="40" height="6" opacity="0.4">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFUAAAPAAAE=
+  </data>
+ </layer>
+ <layer name="ground_1_1" width="40" height="6">
+  <data encoding="base64" compression="zlib">
+   eJzlzssKQFAUhWGFcivXFzBhgolbuZX3fyn/RJ2kgxwjq77Jbrf21rR/x4alYOerBPCRSuw7YjLkD2+FiBALswINWnToMTzsPbtTooIOQ8K86KoxYsKMBevL/8Q4cCW8Gx3Jgcps9vEFsA==
+  </data>
+ </layer>
+ <layer name="ground_2" width="40" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFUAAAPAAAE=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="40" height="6"/>
+ <objectgroup name="chaien_jump_pos" width="40" height="6"/>
+</map>
